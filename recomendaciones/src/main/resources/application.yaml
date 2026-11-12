@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: recomendaciones
+
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://mysql-db:3306/pagos_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWOeRD:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-timeout: 30000
+      validation-timeout: 5000
+
+  jpa:
+    hibernate:
+      ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO:update}
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  kafka:
+    bootstrap-servers: ${SPRING_KAFKA_BOOTSTR_SERVERS:54.172.174.88:9092}
+    producer:
+      key-serializr: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: recommendation-consumer-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
+ 
+    listener:
+      missing-topics-fatal: false
+      auto-startup: true
+recommendation:
+  python:
+    url: ${PYTHON_FASTAPI_URL:http://54.234.32.87:8000/interactions}
