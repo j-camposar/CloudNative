@@ -40,7 +40,7 @@ public class InteraccionService {
                 request.getCategory(),
                 request.getProductType()
         );
-        interaccionesRepository.save(evento);
+        // interaccionesRepository.save(evento);
         kafkaTemplate.send(TOPIC_RECOMENDACION, idCliente, request);
         log.info("Evento de intento enviado a Kafka para el cliente: {}", idCliente);
     }
