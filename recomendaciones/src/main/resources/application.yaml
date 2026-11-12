@@ -37,4 +37,4 @@ spring:
       auto-startup: true
 recommendation:
   python:
-    url: ${PYTHON_FASTAPI_URL:http://54.234.32.87:8000/interactions}
+    url: ${URL_RECOMENDACIONES}
