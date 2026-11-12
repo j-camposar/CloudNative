@@ -1,0 +1,558 @@
+2026-11-12 04:08:17.067264: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 04:08:17.129223: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 04:08:18.838737: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [28772]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-11-12 04:09:14.952016: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     127.0.0.1:39742 - "GET /recommendations?userId=test1 HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50970 - "GET /recommendations?userId=test1 HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:60618 - "GET /recommendations?userId=test1 HTTP/1.1" 500 Internal Server Error
+2026-11-12 04:23:01.561425: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 04:23:01.623671: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 04:23:03.292419: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [29661]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8000): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     127.0.0.1:46640 - "GET /recommendations?userId=test1 HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28772]
+2026-11-12 04:24:02.123402: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 04:24:02.186730: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 04:24:03.958353: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [29829]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-11-12 04:24:56.318223: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     127.0.0.1:40922 - "GET /recommendations?userId=test1 HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29829]
+2026-11-12 04:27:37.811919: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 04:27:37.874783: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 04:27:39.732285: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [30118]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30118]
+2026-11-12 04:27:57.374614: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 04:27:57.436769: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 04:27:59.099695: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [30201]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-11-12 04:28:07.073753: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     127.0.0.1:59504 - "GET /recommendations?userId=test1 HTTP/1.1" 200 OK
+INFO:     98.97.129.127:4591 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     98.97.129.127:58720 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+INFO:     98.97.129.127:45221 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+INFO:     98.97.129.127:21722 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     98.97.129.127:3346 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+INFO:     98.97.129.127:25253 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30201]
+Traceback (most recent call last):
+  File "/home/ec2-user/venv/bin/uvicorn", line 6, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/main.py", line 423, in main
+    run(
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/main.py", line 593, in run
+    server.run()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "/usr/lib64/python3.9/asyncio/base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/tenser/main.py", line 163
+    for prod in catalogo_productos:
+                                   ^
+IndentationError: unindent does not match any outer indentation level
+Traceback (most recent call last):
+  File "/home/ec2-user/venv/bin/uvicorn", line 6, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/main.py", line 423, in main
+    run(
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/main.py", line 593, in run
+    server.run()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "/usr/lib64/python3.9/asyncio/base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/config.py", line 439, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/venv/lib64/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/tenser/main.py", line 163
+    for prod in catalogo_productos:
+                                   ^
+IndentationError: unindent does not match any outer indentation level
+2026-11-12 05:06:08.860718: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 05:06:08.924352: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 05:06:10.550376: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [31783]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-12 05:06:18.357007: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:4055 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     98.97.129.127:29191 - "GET /recommendations?userId=user_123 HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31783]
+2026-11-12 05:09:45.259587: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 05:09:45.322294: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 05:09:46.980870: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [32031]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-11-12 05:10:16.974330: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+INFO:     98.97.129.127:48540 - "GET /recommendations?userId=user_123 HTTP/1.1" 500 Internal Server Error
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:32162 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:43970 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     98.97.129.127:10404 - "GET /recommendations?userId=user_123 HTTP/1.1" 500 Internal Server Error
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32031]
+2026-11-12 05:14:59.265398: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 05:14:59.327421: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 05:15:00.964621: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [32399]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2026-11-12 05:15:06.175401: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 90ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 105ms/step
+INFO:     98.97.129.127:21647 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:28111 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:28111 - "POST /interactions HTTP/1.1" 200 OK
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 17ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 32ms/step
+INFO:     98.97.129.127:28111 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32399]
+2026-11-12 05:19:09.324680: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 05:19:09.387510: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 05:19:10.993024: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [32695]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-12 05:19:53.824410: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+/home/ec2-user/venv/lib64/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+No se encontró modelo en S3, inicializando modelo base: An error occurred (404) when calling the HeadObject operation: Not Found
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:3781 - "POST /interactions HTTP/1.1" 200 OK
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 81ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 100ms/step
+INFO:     98.97.129.127:34524 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 17ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 34ms/step
+INFO:     98.97.129.127:57336 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:7786 - "POST /interactions HTTP/1.1" 200 OK
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 18ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 33ms/step
+INFO:     98.97.129.127:7786 - "GET /recommendations?userId=user_123 HTTP/1.1" 200 OK
+INFO:     138.197.157.159:34870 - "GET / HTTP/1.1" 404 Not Found
+INFO:     138.197.157.159:34886 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:17276 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:16875 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:31224 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:45784 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32695]
+2026-11-12 06:11:05.306884: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 06:11:05.377451: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 06:11:07.285772: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [35251]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-12 06:11:09.171065: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 06:11:09.238395: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 06:11:11.103223: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/home/ec2-user/venv/lib64/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [35259]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-12 06:13:04.693158: E external/local_xla/xla/stream_executor/cuda/cuda_platform.cc:51] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+INFO:     98.97.129.127:55013 - "POST /model/reset HTTP/1.1" 200 OK
+INFO:     98.97.129.127:21066 - "POST /model/reset HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario cliente_vip_01
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_456
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario test_user_02
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_789
+INFO:     98.97.129.127:17735 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:51248 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+Modelo actualizado en caliente con la interacción del usuario user_123
+INFO:     98.97.129.127:2280 - "POST /interactions HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [35259]
+2026-11-12 07:27:29.576319: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-12 07:27:29.656372: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-12 07:27:31.537629: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+/usr/local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+INFO:     Started server process [5544]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
