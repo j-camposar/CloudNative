@@ -31,6 +31,7 @@ services:
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=123456
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - URL_RECOMENDACIONES=${URL_RECOMENDACIONES}
     depends_on:
       mysql-db:
         condition: service_healthy
