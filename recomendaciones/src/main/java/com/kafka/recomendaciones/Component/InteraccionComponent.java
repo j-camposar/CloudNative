@@ -46,17 +46,17 @@ public class InteraccionComponent {
                 default         -> 1;
             };
 
-            Interacciones eventoSql = new Interacciones(
-                    dto.getClientId(),
-                    dto.getItemId(),
-                    dto.getAction(),
-                    weight,
-                    dto.getCategory(),
-                    dto.getProductType()
-            );
+            // Interacciones eventoSql = new Interacciones(
+            //         dto.getClientId(),
+            //         dto.getItemId(),
+            //         dto.getAction(),
+            //         weight,
+            //         dto.getCategory(),
+            //         dto.getProductType()
+            // );
 
-            interaccionesRepository.save(eventoSql);
-            recomendacionesService.calcularYGuardarTop5(dto.getClientId());
+            // interaccionesRepository.save(eventoSql);
+            // recomendacionesService.calcularYGuardarTop5(dto.getClientId());
 
             // Enviar a Python de forma limpia y directa
             enviarEventoAPython(dto, weight);
